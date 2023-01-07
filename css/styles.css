@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+div {
+    background-color: #F8EDE3;
+}
+
+h1 {
+    margin: 0;
+}
+
+/***********************************CLASS SELECTORS*****************************************/
+
+.middle-container {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.bottom-container {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
