@@ -59,7 +59,12 @@ p {
     text-align: center;
     bottom: 50px;
     size: 100%;
-    opacity: 80%;
+    opacity: 30%;
+    transition-duration: 2s;
+}
+
+.mountain:hover {
+    opacity: 100%;
 }
 
 .bottom_cloud {
@@ -99,19 +104,26 @@ p {
     font-size: 2.5rem;
 }
 
+
 .my_name {
     margin: 50px auto 0 auto;
     font-family: 'Style Script', cursive;
     font-size: 5rem;
+    transition-duration: 2s;
+}
+
+.my_name:hover {
+    font-size: 6rem;
 }
 
 .round-image {
     height: 200px;
-    border-radius: 100%;
+    border-radius: 50%;
     padding-top:24px;
+    transition-duration: 0.5s;
 }
 .round-image:hover {
-    border-radius: 80%;
+    border-radius: 40%;
 }
 .skill-paragraph {
     text-align: left;
